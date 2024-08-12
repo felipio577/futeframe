@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notícias de Esportes - Real Madrid e Mais</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <button class="menu-toggle" id="menu-toggle">☰</button>
+        <div class="logo-container">
+            <img src="images/logo.png" alt="Logo" class="logo" id="logo">
+        </div>
+        <h1>Notícias de Esportes</h1>
+    </header>
+    <aside class="sidebar" id="sidebar">
+        <button class="close-btn" id="close-btn">&times;</button>
+        <h2>Menu</h2>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="times.html">Times</a></li>
+                <li><a href="jogos.html">Jogos</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </aside>
+    <div class="main-content">
+        <main>
+            <section class="carousel-container">
+                <div class="carousel">
+                    <!-- Itens do carrossel -->
+                    <div class="carousel-item"><img src="images/real.png" alt="Real Madrid"><p>Real Madrid</p></div>
+                    <div class="carousel-item"><img src="images/barcelona.png" alt="Barcelona"><p>Barcelona</p></div>
+                    <div class="carousel-item"><img src="images/bayen.png" alt="Bayern Munich"><p>Bayern Munich</p></div>
+                    <div class="carousel-item"><img src="images/45.png" alt="Liverpool"><p>Liverpool</p></div>
+                    <div class="carousel-item"><img src="images/chelsea.png" alt="Liverpool"><p>Chelsea</p></div>
+                    <div class="carousel-item"><img src="images/atletico madrid.png" alt="Liverpool"><p>Atletico Madrid</p></div>
+                    <div class="carousel-item"><img src="images/arse.png" alt="Liverpool"><p>Arsenal</p></div>
+                    <div class="carousel-item"><img src="images/city.png" alt="Liverpool"><p>Mancheste City</p></div>
+                    <div class="carousel-item"><img src="images/NAITE.png" alt="Liverpool"><p>Mancheste United</p></div>
+                    <div class="carousel-item"><img src="images/ASTON.png" alt="Liverpool"><p>Astom Villa </p></div>
+                    <div class="carousel-item"><img src="images/GRANADA.png" alt="Liverpool"><p>Granada FC</p></div>
+                    <div class="carousel-item"><img src="images/juve.png" alt="Liverpool"><p>Juventus</p></div>
+                    <div class="carousel-item"><img src="images/vasco.png" alt="Liverpool"><p>Vasco</p></div>
+                    <div class="carousel-item"><img src="images/nassr.png" alt="Liverpool"><p>AL Nassar</p></div>
+                    <div class="carousel-item"><img src="images/millan.png" alt="Liverpool"><p>Milan FC</p></div>
+                    <div class="carousel-item"><img src="images/napolie.png" alt="Liverpool"><p>Napolli</p></div>
+                    <!-- Duplicar os itens -->
+                    
+                </div>
+            </section>
+            <section class="headline">
+                <h2>Destaques do Real Madrid</h2>
+                <div class="grid">
+                    <article>
+                        <img src="images/1.png" alt="Real Madrid em ação">
+                        <div class="content">
+                            <h3>Real Madrid Conquista a Vitória em Grande Estilo</h3>
+                            <p>O Real Madrid derrotou o Barcelona em um emocionante clássico com um gol no último minuto. A equipe mostrou grande desempenho e garantiu mais três pontos importantes no campeonato.</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="images/2.png" alt="Jogador do Real Madrid">
+                        <div class="content">
+                            <h3>Jogador do Real Madrid é Eleito Melhor da Semana</h3>
+                            <p>Com atuações brilhantes nas últimas partidas, o jogador X foi eleito o melhor da semana na La Liga. Seus gols e assistências foram cruciais para o sucesso da equipe.</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="images/3.png" alt="Novo Reforço do Real Madrid">
+                        <div class="content">
+                            <h3>Real Madrid Anuncia Novo Reforço para a Temporada</h3>
+                            <p>O Real Madrid anunciou a contratação de um novo jogador, que promete trazer novas energias e habilidades para o time. A contratação foi celebrada pelos torcedores e pela equipe técnica.</p>
+                        </div>
+                    </article>
+                </div>
+            </section>
+            <section class="other-news">
+                <div class="container">
+                    <h2>Outras Notícias de Esportes</h2>
+                    <div class="grid">
+                        <article>
+                            <img src="images/copa-do-mundo.jpg" alt="Copa do Mundo">
+                            <div class="content">
+                                <h3>Times de Futebol se Preparam para a Copa do Mundo</h3>
+                                <p>Os times ao redor do mundo estão intensificando seus treinos e estratégias para a Copa do Mundo que se aproxima. As seleções estão em fase de preparação para o grande torneio.</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="images/nba-melhores-jogadas.jpg" alt="Melhores Jogadas NBA">
+                            <div class="content">
+                                <h3>NBA: As Melhores Jogadas da Semana</h3>
+                                <p>Veja as melhores jogadas e destaques da semana na NBA. Os jogos foram cheios de emoção e as equipes mostraram habilidades impressionantes.</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+
+
+            <!-- Outras seções -->
+        </main>
+        <footer>
+            <div class="container">
+                <p>&copy; 2024 Notícias de Esportes. Todos os direitos reservados.</p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+<style>
+    /* Reset de estilos básicos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+    display: flex;
+    min-height: 100vh;
+    margin: 0;
+}
+
+header {
+    background: #141414;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.menu-toggle {
+    background: #e50914;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    font-size: 24px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    margin-right: 80px;
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+    cursor: pointer;
+    transition: width 0.3s ease;
+}
+
+.logo:hover {
+    width: 100px;
+}
+
+header h1 {
+    flex: 1;
+    text-align: center;
+    margin: 0;
+    font-size: 1.8em;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #141414;
+    color: #fff;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: -250px;
+    bottom: 0;
+    overflow-y: auto;
+    transition: left 0.3s ease;
+    z-index: 1001; /* Garantir que o menu lateral esteja acima do carrossel */
+}
+
+.sidebar.open {
+    left: 0;
+}
+
+.close-btn {
+    background: transparent;
+    border: none;
+    color: #fff;
+    font-size: 30px;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+
+.sidebar h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.sidebar nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar nav ul li {
+    margin-bottom: 15px;
+}
+
+.sidebar nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    padding: 10px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.sidebar nav ul li a:hover {
+    background-color: #e50914;
+    color: #fff;
+}
+
+.main-content {
+    margin-top: 60px; /* Adicionado para compensar a altura do header fixo */
+    margin-left: 0;
+    width: 100%;
+    transition: margin-left 0.3s ease;
+}
+
+.main-content.open {
+    margin-left: 250px;
+}
+
+.headline {
+    padding: 20px;
+    background: #fff;
+    border-bottom: 4px solid #e50914;
+    text-align: center;
+}
+
+.headline h2 {
+    font-size: 2.5em;
+    color: #333;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.grid article {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.grid article:hover {
+    transform: scale(1.02);
+}
+
+.grid img {
+    width: 100%;
+    height: auto;
+    border-bottom: 4px solid #e50914;
+}
+
+.content {
+    padding: 15px;
+}
+
+.content h3 {
+    margin-bottom: 10px;
+    font-size: 1.6em;
+    color: #333;
+}
+
+.content p {
+    font-size: 1em;
+    color: #666;
+}
+
+footer {
+    background: #141414;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Carrossel */
+.carousel-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    background-color: #222;
+    padding: 10px 0;
+    margin-top: 20px;
+    z-index: 500;
+}
+
+.carousel {
+    display: flex;
+    width: calc(150px * 8); /* Largura total necessária para todos os itens, incluindo duplicados */
+    animation: scroll 30s linear infinite; /* Ajuste o tempo conforme necessário */
+}
+
+.carousel-item {
+    flex: 0 0 auto;
+    width: 150px; /* Ajuste o tamanho conforme necessário */
+    margin: 0 10px;
+    text-align: center;
+}
+
+.carousel-item img {
+    max-width: 80px; /* Ajuste conforme necessário */
+    height: auto;
+}
+
+.carousel-item p {
+    color: #fff;
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 0.9em; /* Ajuste conforme necessário */
+}
+
+/* Animação do carrossel */
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%); /* Ajuste conforme necessário para o número de itens */
+    }
+}
+
+</style>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+    const menuToggle = document.getElementById('menu-toggle');
+    const sidebar = document.getElementById('sidebar');
+    const closeBtn = document.getElementById('close-btn');
+    const mainContent = document.querySelector('.main-content');
+
+    // Função para abrir e fechar o menu lateral
+    menuToggle.addEventListener('click', function () {
+        sidebar.classList.toggle('open');
+        mainContent.classList.toggle('open');
+    });
+
+    closeBtn.addEventListener('click', function () {
+        sidebar.classList.remove('open');
+        mainContent.classList.remove('open');
+    });
+
+    // Função para redimensionar o logo
+    const logo = document.getElementById('logo');
+    logo.addEventListener('click', function () {
+        let newWidth = prompt("Digite o novo tamanho da logo em pixels:", logo.style.width.replace('px', '') || '150');
+        if (newWidth !== null && !isNaN(newWidth)) {
+            logo.style.width = `${Math.max(20, Math.min(150, newWidth))}px`;
+        }
+    });
+
+    // Função para mover o carrossel
+    const carousel = document.querySelector('.carousel');
+    const items = carousel.querySelectorAll('.carousel-item');
+    let index = 0;
+
+    function moveToNextItem() {
+        index = (index + 1) % items.length;
+        carousel.style.transform = `translateX(-${index * 150}px)`; // Ajuste conforme necessário
+    }
+
+    // Mudar o item a cada 3 segundos
+    setInterval(moveToNextItem, 3000);
+});
+
+</script>
